@@ -1,0 +1,1 @@
+print ("welcome to abdijalil imam python lab")
