@@ -22,6 +22,11 @@ while True:
     print("computer picked", computer_pick + ".")
 
 
+    if user_input == computer_pick :
+        print("its a tie! Try again.")
+        continue 
+
+
     if user_input == "rock" and computer_pick == "scissors":
         print('You won!')
         user_wins += 1
